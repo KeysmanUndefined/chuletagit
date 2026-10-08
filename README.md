@@ -23,7 +23,7 @@ git status
 Añadir los archivos:
 
 ```bash
-git commit add .
+git add .
 ```
 
 Crear el primer commit:
