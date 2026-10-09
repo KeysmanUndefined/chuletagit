@@ -117,8 +117,30 @@ Ver a qué repositorio de GitHub está conectado:
 git remote -v
 ```
 ## Conventional Commits
+
+| Tipo | Significado | Cuándo utilizarlo |
+|---|---|---|
+| `build` | Compilación | Cambias dependencias o configuración de compilación |
+| `ci` | Integración continua | Modificas automatizaciones de pruebas o despliegues |
+| `docs` | Documentación | Modificas un README.md |
+| `feat` | Nueva funcionalidad | Añades una función al programa |
+| `fix` | Corrección | Arreglas un error |
+| `perf` | Rendimiento | Haces que el programa funcione más rápido |
+| `refactor` | Reestructuración | Mejoras el código sin cambiar su comportamiento |
+| `style` | Estilo | Corriges espacios, indentación o formato |
+| `test` | Pruebas | Añades o corriges pruebas |
+
 Ejemplos:
 
+
+| Lo que haces | Commit |
+|---|---|
+| Creas un programa | `feat: añadir programa inicial` |
+| Corriges un `if` | `fix: corregir condición` |
+| Modificas el README | `docs: actualizar instrucciones` |
+| Ordenas el código | `refactor: simplificar función` |
+| Corriges indentación | `style: corregir indentación` |
+| Añades pruebas | `test: añadir pruebas de cálculo` |
 ```bash
 git commit -m "feat: añadir comprobación de números primos"
 git commit -m "fix: corregir cálculo de divisores"
@@ -126,6 +148,8 @@ git commit -m "docs: actualizar README"
 git commit -m "refactor: simplificar función is_prime"
 git commit -m "test: añadir pruebas para números negativos"
 ```
+
+
 
 ## Regla rápida
 Repositorio que NO tengo en el ordenador:
